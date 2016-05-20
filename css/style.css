@@ -1,6 +1,5 @@
 body {
 	font: 40px/50px "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",'メイリオ',Meiryo,Helvetica,Arial,Sans-Serif;
-	/*font-family: "Gill Sans","ヒラギノ角ゴ Pro","メイリオ", "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;*/
 	background-image: url(../img/SHI65_kokegahaetaita20140720_TP_V.jpg);
 	color: #FFF;
 }
@@ -14,36 +13,66 @@ body {
     content: "";
 }
 .main-title {
-	font-size: 85px;
-	margin-bottom: 60px;
+	font-size: 100px;
+	margin: 10px 0 60px;
+	font-weight: bold;
 }
 .left-cont {
     color: #000;
     float: left;
-    width: 550px;
-    border-radius:12px;
-    background-color: #FFF;
-    opacity: 0.8;
+    width:640px;
+    border-radius:20px;
+    background-color: rgba(255,255,255,0.6);
 }
 .left-inner {
 	margin: 10px;
 	font-size: 20px;
 	line-height: 40px;
+	opacity: .8;
+	font-weight: 600;
+}
+.left-font {
+    margin: 10px;
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: 900;
+	opacity: .8;
 }
 .left-title {
 	color: #B84343;
 	font-size: 15px;
 	line-height: 40px;
-	margin-left: 10px;
+	margin-left: 20px;
+	font-weight: bold; 
+	opacity: .8;
 }
 .left-bun {
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 20px;
-	margin-left: 10px;
+	margin-left: 20px;
+	opacity: .8;
+	font-weight: 600;
+}
+.photo {
+	font-size: 18px;
+	line-height: 20px;
+	margin-left: 20px;
 }
 .right-cont {
 	float: right;
 	line-height: 55px;
 	margin-right: 150px;
-	list-style:none
+	list-style:none;
+	color: #fff;
+	text-decoration: none;
 }
+.right-inner {
+	color: #fff;
+	text-decoration: none;
+}
+.right-inner:hover {
+	color: #F5DEB3;
+	transition: .3s;
+	opacity: .7;
+}
+
